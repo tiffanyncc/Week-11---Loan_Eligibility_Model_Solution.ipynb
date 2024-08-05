@@ -19,13 +19,13 @@ def main():
         return
 
     try:
-        plot_loan_status(df)
+        plot_loan_status(df, 'loan_status_plot')
         logging.info('Loan status distribution plotted.')
     except Exception as e:
         logging.error(f'Error plotting loan status distribution: {e}')
     
     try:
-        plot_distribution(df, 'LoanAmount')
+        plot_distribution(df, 'LoanAmount', 'loan_amount_dist_plot')
         logging.info('Loan amount distribution plotted.')
     except Exception as e:
         logging.error(f'Error plotting loan amount distribution: {e}')
