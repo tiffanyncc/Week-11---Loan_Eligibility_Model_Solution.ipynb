@@ -7,7 +7,6 @@ This project aims to predict loan eligibility using different classification mod
 - `data/`: Contains the dataset and data loading scripts.
 - `features/`: Contains data preprocessing and feature engineering scripts.
 - `models/`: Contains the machine learning models.
-- `utils/`: Contains utility functions such as logging.
 - `visualization/`: Contains data visualization scripts.
 - `main.py`: Main script to run the project.
 
